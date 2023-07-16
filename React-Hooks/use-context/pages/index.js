@@ -8,7 +8,7 @@ export default function Home() {
 
   const {nombre,llamadaConsole} = useContext(NombreContext)
 
-  llamadaConsole() //Funcion que viene del context
+  llamadaConsole() //Funcion que viene del context  y podemos usar en otros componentes
 
   return (
     <>
