@@ -39,6 +39,18 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link
+            href="/useState"
+            className={styles.card}
+          >
+            <h2 className={inter.className}>
+              useState 
+            </h2>
+            <p className={inter.className}>
+              Estado o variable propia de React.
+            </p>
+          </Link>
+
 
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
